@@ -1,0 +1,38 @@
+body {
+    background-image: url("Background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Intro {
+    color: black;
+    font-family: Comic Sans MS;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+h1 {
+    color: blue;
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+
+
+#GG {
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+#GER {
+    float: right;
+    width: 25%;
+    height: auto;
+}
+
+#GER:hover {
+    content: url("GER.png");
+}
+
